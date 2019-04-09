@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../common/css/sapar.css" />
+<link rel="stylesheet" type="text/css" href="../../common/css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+<script type="text/javascript" src="../../common/js/jquery.js"></script>
+<script type="text/javascript" src="../../common/js/sapar.js"></script>
+<script type="text/javascript" src="../../common/js/WdatePicker.js"></script>
+<script type="text/javascript" src="js/verifyChe.js"></script>
+<title>参数输入</title>
+</head>
+<body>
+    <div id="saper-container">
+        <div id="saper-bd">
+        	<form id="form1" action="" class="saper-form">
+            <div class="subfiled-content">
+                    <div class="kv-item clearfix">
+                        <label>油藏：</label>
+                        <div class="kv-item-content">
+                            <select>
+                            		<option>1</option>
+                            		<option>1</option>
+                            </select>
+                        </div>
+						<label>年份：</label>
+                        <div class="kv-item-content">
+                            <select>
+                            		<option>1</option>
+                            		<option>1</option>
+                            </select>
+                        </div>
+                        <label></label>
+                         <div class="kv-item-content">
+		                		<input value="提交" type="submit" class="sapar-btn sapar-btn-recom" style="width:100px;margin: 0 auto;display:inline-block;float: none;">
+		                </div>
+                  </div>
+            </div>
+           </form>
+            <div class="subfiled clearfix">
+                <h2></h2>
+            </div>
+            <div class="subfiled-content">
+
+                <div class="search-box">
+                <!--表格开始-->
+                <div class="table">
+                    <!--表格具体内容-->
+                    <div class="table-box">
+                        <table id="tab2">
+                            <thead>
+                                <tr>
+                                		<th rowspan="2">油藏</th>
+                                    <th  rowspan="2">年份</th>
+                                    <th  rowspan="2">总投资</th>
+                                    <th  rowspan="2">年收益</th>
+                                    <th  rowspan="2">累计收益</th>
+                                    <th  rowspan="2">净现值</th>
+                                    <th rowspan="2">经济界限</th>
+                                    <th  rowspan="2">净现值率</th>
+                                    <th  rowspan="2">投入产出比</th>
+                                    <th style="width: 80px;"><a class="sapar-btn sapar-btn-recom">排序</a></th>
+                                    <th style="width: 80px;"><a class="sapar-btn sapar-btn-recom">排序</a></th>
+                                    <th rowspan="2">序号</th>
+                                </tr>
+                                <tr>
+                                		<th>单井利润</th>
+                                    <th>净收益</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>新14油藏</td>
+                                    <td>2008</td>
+                                    <td>100.00</td>
+                                    <td>444</td>
+                                    <td>444</td>
+                                    <td>20113</td>
+                                    <td>444</td>
+                                    <td>20133</td>
+                                    <td>444</td>
+                                    <td>2013</td>
+                                    <td>2013</td>
+                                    <td>2013</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div><!--表格结束-->
+				<div style="width: 100%;height: 50px;text-align: center;margin-top: 20px;">
+                		<a href="#" id="tj" class="sapar-btn sapar-btn-recom" style="width:100px;margin: 0 auto;display:inline-block;float: none;">导出Excel</a>
+                </div>
+            </div>
+        </div>
+        <div id="saper-ft"></div>
+    </div>
+</body>
+
+<script type="text/javascript">
+$('#pagin').pagination(100,{
+    callback: function(page){
+        alert(page);    
+    },
+    display_msg: true,
+    setPageNo: true
+});
+
+</script>
+</html>

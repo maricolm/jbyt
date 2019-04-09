@@ -1,0 +1,62 @@
+.head{
+	width: 98%;
+	height: 50px;
+	background-color: #3b9fe1;
+	border-left: 1px #3b9fe1 solid;
+}
+.head1{
+	margin-top: 1px;
+	background-color: white;
+	float: left;
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	color: #3B9FE1;
+}
+.head2{
+	float: left;
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom-left-radius: 7px;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+.msg{
+	color: red;
+}
+table tr td:nth-child(1){
+	text-align: center;
+}
+table tr th:nth-child(1){
+	text-align: center;
+}
+#tab2{
+	 text-align: center;
+	 border: 1px solid grey;
+	 background-color: white;
+}
+#tab2 thead{
+	
+	background: none;
+}
+#tab2 thead tr{
+	text-align: center;
+	background-color: #D1E9E9;
+}
+#tab2 thead tr th{
+	text-align: center;
+	border: 1px solid grey;
+}
+#tab2 tbody tr th{
+	text-align: center;
+	border: 1px solid grey;
+}
+#tab2 tbody tr td{
+	text-align: center;
+	border: 1px solid grey;
+}
+
